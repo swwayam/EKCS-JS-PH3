@@ -179,15 +179,25 @@
 
 // Q 12
 
-function checkLeapYear(year){
+// function checkLeapYear(year){
 
-    if(year % 400 == 0){
-        console.log("Its a leap year")
-    }else if(year % 4 == 0 && year % 100 != 0){
-        console.log("Its a leap year")
-    }else{
-        console.log("Not Leap year");
-    }
+//     if(year % 400 == 0){
+//         console.log("Its a leap year")
+//     }else if(year % 4 == 0 && year % 100 != 0){
+//         console.log("Its a leap year")
+//     }else{
+//         console.log("Not Leap year");
+//     }
+// }
+
+// checkLeapYear(1000)
+
+// Q 13
+
+function firstChar(str1, str2){
+    // manoj amulya
+    // ma
+    console.log(str1[0] + str2[0])
 }
 
-checkLeapYear(1000)
+firstChar("Manoj", "Amulya")
