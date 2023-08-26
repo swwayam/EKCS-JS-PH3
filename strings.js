@@ -4,9 +4,9 @@ console.log(name);
 // Strings are immutable in js 
 // string counting -> indexing starts from 0
 
-console.log(name[0]);
+console.log(name[0]); // M
 console.log(name[10]);
-console.log(name[39]);
+console.log(name[39]); // n
 console.log(name.length); // char count starts 1 and index starts 0
 
 // if we want the last character 
